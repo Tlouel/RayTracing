@@ -1,0 +1,3 @@
+C:/Users/getre/Documents/RayTracing - 07/build/CMakeFiles/RayTracer.dir
+C:/Users/getre/Documents/RayTracing - 07/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/getre/Documents/RayTracing - 07/build/CMakeFiles/ZERO_CHECK.dir

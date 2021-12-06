@@ -1,0 +1,3 @@
+C:/Users/getre/OneDrive/Documents/Raytracing/build/Debug/Raytracing.exe/CMakeFiles/RayTracer.dir
+C:/Users/getre/OneDrive/Documents/Raytracing/build/Debug/Raytracing.exe/CMakeFiles/ALL_BUILD.dir
+C:/Users/getre/OneDrive/Documents/Raytracing/build/Debug/Raytracing.exe/CMakeFiles/ZERO_CHECK.dir

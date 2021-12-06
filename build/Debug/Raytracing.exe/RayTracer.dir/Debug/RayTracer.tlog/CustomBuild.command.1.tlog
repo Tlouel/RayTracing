@@ -1,0 +1,10 @@
+^C:\USERS\GETRE\ONEDRIVE\DOCUMENTS\RAYTRACING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/getre/OneDrive/Documents/Raytracing -BC:/Users/getre/OneDrive/Documents/Raytracing/build/Debug/Raytracing.exe --check-stamp-file C:/Users/getre/OneDrive/Documents/Raytracing/build/Debug/Raytracing.exe/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

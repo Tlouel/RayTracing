@@ -1,0 +1,10 @@
+^C:\USERS\GETRE\DOCUMENTS\RAYTRACING - 07\BUILD\CMAKEFILES\A78CB752E0CCFC0982E8DB7EB3146C67\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/getre/Documents/RayTracing - 07" "-BC:/Users/getre/Documents/RayTracing - 07/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/getre/Documents/RayTracing - 07/build/RayTracer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
